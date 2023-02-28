@@ -1,5 +1,5 @@
 ## About
-Name: <b>Guessing game</b>
+Name: <b>Guessing game</b> <br>
 Programming language: <b>Javascript</b>
 
 ## How to play
