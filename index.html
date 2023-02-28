@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="game">
+      <h1 class="title">Guess the Number</h1>
+      <p class="instructions">
+        I'm thinking of a number between 1 and 100. Can you guess it?
+      </p>
+      <div class="guess-container">
+        <input type="text" id="guess" class="guess-input" />
+        <button id="submit" class="guess-button">Submit</button>
+      </div>
+      <p id="message" class="message"></p>
+      <p id="tries" class="tries">Tries left: 10</p>
+    </div>
+  </body>
+  <script src="./scripts/index.js"></script>
+  <script src="./scripts/access.js"></script>
+</html>
